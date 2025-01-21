@@ -9,15 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.0.0-rc.0",
-    "react": "19.0.0-rc-935180c7e0-20240524",
-    "react-dom": "19.0.0-rc-935180c7e0-20240524",
-    "swr": "2.2.6-beta.3"
+    "next": "15.1.5",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "swr": "2.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
 }

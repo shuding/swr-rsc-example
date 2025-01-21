@@ -4,7 +4,9 @@ import useSWR from "swr";
 import { getPokemon } from "./data";
 
 export function Pokemon() {
-  const { data } = useSWR("pikachu", getPokemon);
+  const { data } = useSWR("pikachu", getPokemon, {
+    revalidateOnMount: false,
+  });
 
   // As we always provide the Pokemon in the parent
   // component via `fallback`, there's no need to
